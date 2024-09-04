@@ -17,7 +17,7 @@ const NewGen = () => {
     return (
         <div className="new-generation-section overflow-hidden">
             <Slider {...settings}>
-                <div className="product ">
+                <div className="product w-60 ">
                     <div className="product-info text-white">
                         <p className="flex justify-start"> </p>
                         <h2 className="flex justify-start font-bold"> </h2>
