@@ -29,16 +29,12 @@ const Navbar = () => {
             </div>
           </div>
             {/* Search and Cart Icons */}
-          <div className=" flex items-center space-x-4 text-gray-600 lg:w-0 lg:justify-start w-full justify-end">
+          <div className=" flex items-center space-x-4 text-gray-600 lg:max-w-14 lg:max-h-5 lg:justify-start w-full justify-end">
             <a href="/search" className="hover:text-gray-400">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-4.35-4.35m1.08-4.95a7.5 7.5 0 11-15 0 7.5 7.5 0 0115 0z" />
-              </svg>
+              <img className="h-7 w-7" src="find.svg" alt="a" />
             </a>
             <a href="/cart" className="hover:text-gray-400">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 4.5h16.5M4.5 7.5h15l-1.25 10.5H5.75L4.5 7.5zM9 7.5v-.75a3.75 3.75 0 117.5 0V7.5" />
-              </svg>
+              <img src="cart.svg" alt="a" />
             </a>
           </div>
         </div>
@@ -46,9 +42,7 @@ const Navbar = () => {
         {/* Mobile Menu Button */}
         <div className="flex lg:hidden items-center pl-2 ">
           <button className="text-gray-600 focus:outline-none">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
-            </svg>
+            
           </button>
         </div>
       </div>

@@ -17,7 +17,7 @@ const NewGen = () => {
     return (
         <div className="new-generation-section overflow-hidden">
             <Slider {...settings}>
-                <div className="product ">
+                <div className="product w-60 ">
                     <div className="product-info text-white">
                         <p className="flex justify-start"> </p>
                         <h2 className="flex justify-start font-bold"> </h2>
@@ -34,7 +34,7 @@ const NewGen = () => {
                 </div>
 
                 <div className="product">
-                    <img src='https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692910040844' alt="product-image" />
+                    <img src="/store-card-40-iphone-15-pro-202309.jpeg" alt="product-image" />
                     <div className="product-info text-white">
                         <p className="flex justify-start text-xs">IPhone 15 Pro</p>
                         <h2 className="flex justify-start font-bold">Titan</h2>
@@ -43,7 +43,7 @@ const NewGen = () => {
                 </div>
 
                 <div className="product">
-                    <img src='https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-bts-offer-featured-202406_GEO_VN?wid=800&hei=1000&fmt=jpeg&qlt=90&.v=1719381084982' alt="product-image" />
+                    <img src="store-card-40-bts-offer-featured-202406_GEO_VN.jpeg" alt="product-image" />
                     <div className="product-info">
                         <p className="flex text-left justify-start text-xs uu-dai">ƯU ĐÃI TRONG THỜI GIAN CÓ HẠN.</p>
                         <h2 className="flex text-left justify-start font-bold">Tiết kiệm khi mua Mac hoặc iPad để học đại học.</h2>
@@ -52,7 +52,7 @@ const NewGen = () => {
                 </div>
 
                 <div className="product">
-                    <img src='https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-ipad-pro-202405?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1713308272816' alt="product-image" />
+                    <img src="store-card-40-ipad-pro-202405.jpeg" alt="product-image" />
                     <div className="product-info">
                         <p className="flex justify-start text-xs text-white">IPAD PRO</p>
                         <h2 className="flex justify-start font-bold text-white">Mỏng xuất chúng.</h2>
@@ -61,7 +61,7 @@ const NewGen = () => {
                 </div>
                 
                 <div className="product">
-                    <img src='https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-macbook-air-202402?wid=800&hei=1000&fmt=jpeg&qlt=90&.v=1707259289595' alt="product-image" />
+                    <img src="store-card-40-macbook-air-202402.jpeg" alt="product-image" />
                     <div className="product-info">
                         <p className="flex justify-start text-xs ">MACBOOK AIR</p>
                         <h2 className="flex justify-start font-bold">Được thiết kế để đi muôn nơi.</h2>
@@ -70,7 +70,7 @@ const NewGen = () => {
                 </div>
 
                 <div className="product">
-                    <img src='https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-ipad-air-202405?wid=800&hei=1000&fmt=png-alpha&.v=1713308272877' alt="product-image" />
+                    <img src="store-card-40-ipad-air-202405.png" alt="product-image" />
                     <div className="product-info">
                         <p className="flex justify-start text-xs">IPAD AIR</p>
                         <h2 className="flex justify-start font-bold">Mới Mẻ.</h2>

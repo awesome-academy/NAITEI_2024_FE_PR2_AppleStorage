@@ -1,21 +1,25 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import "../assets/css/storetitle.css";
 
 const StoreTitle = () => {
   const {t} = useTranslation();
   return (
     <div>
-        <div className="flex justify-between">
-            <div className="flex mr-40"><p className="font-bold">Cửa Hàng.</p> Cách tốt nhất để mua sản phẩm bạn thích.</div>
-            <div>
-                <span>
-                    <div >
-                        Bạn cần trợ giúp mua sắm?
+        <div className="flex justify-between mx-36 mt-16">
+            <div className="bigtitle flex mr-40 font text-5xl leading-tight">
+                <p><strong>{t('store')}.</strong><b className="b" >{t('storeqote')}</b></p>
+            </div>
+            <div className="flex">
+                <img className="w-10 h-10 mr-1"  src="/supportericon.jpeg" alt="icon" />
+                <div className="whitespace-nowrap text-sm flex flex-col justify-start">
+                    <div className="font-semibold ">
+                        {t('needhelp')}
                     </div>
-                    <div>
-                        Hỏi Chuyên Gia
+                    <div className="text-blue-600 hover:underline cursor-pointer">
+                        {t('ask')}
                     </div>
-                </span>
+                </div>
             </div>
         </div>
     </div>
