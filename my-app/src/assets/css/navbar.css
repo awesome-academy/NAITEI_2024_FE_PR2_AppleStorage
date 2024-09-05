@@ -1,0 +1,14 @@
+.apple-logo {
+    transform: translateX(200px);
+}
+.de-apple-logo {
+    transform: translateX(200px);
+}
+
+.icon-cluster {
+    transform: translateX(-200px);
+}
+
+.de-icon-cluster {
+    transform: translateX(0px);
+}
