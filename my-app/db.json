@@ -1,16 +1,52 @@
 {
-    "Newgen":[
+    "Acs":[
         {
             "image":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692910040844",
-            "subcript": "The future is here.",
+            "new": " ",
             "title": "iPhone 15 Pro",
-            "detail": "Experience the next generation of iPhone with advanced technology and sleek design."
+            "price": "1000đ"
         },
         {
             "image":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692910040844",
-            "subcript": "The future is here.",
+            "new": "New",
             "title": "iPhone 16 Pro",
-            "detail": "Experience the next generation of iPhone with advanced technology and sleek design."
+            "price": "1000đ"
+        },
+        {
+            "image":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692910040844",
+            "new": "New",
+            "title": "iPhone 15 Pro",
+            "price": "1000đ"
+        },
+        {
+            "image":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692910040844",
+            "new": "New",
+            "title": "iPhone 15 Pro",
+            "price": "1000đ"
+        },
+        {
+            "image":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692910040844",
+            "new": "New",
+            "title": "iPhone 15 Pro",
+            "price": "1000đ"
+        },
+        {
+            "image":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692910040844",
+            "new": "New",
+            "title": "iPhone 15 Pro",
+            "price": "1000đ"
+        },
+        {
+            "image":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692910040844",
+            "new": "New",
+            "title": "iPhone 15 Pro",
+            "price": "1000đ"
+        },
+        {
+            "image":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692910040844",
+            "new": "New",
+            "title": "iPhone 15 Pro",
+            "price": "1000đ"
         }
     ]
 }
