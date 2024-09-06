@@ -1,16 +1,67 @@
 {
-    "Newgen":[
+    "Headphone":[
         {
-            "image":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692910040844",
-            "subcript": "The future is here.",
-            "title": "iPhone 15 Pro",
-            "detail": "Experience the next generation of iPhone with advanced technology and sleek design."
+            "image":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MX2D3?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1713841707336",
+            "new": "New",
+            "title": "Apple Pencil Pro",
+            "price": "3.499.000đ"
+        },
+        {
+            "image":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MWR53?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1713934300288",
+            "new": "New",
+            "title": "Magic Keyboard cho iPad Pro 13 inch (M4) Đen",
+            "price": "9.799.000đ"
+        }
+    ],
+
+    "Acs":[
+        {
+            "image":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MX2D3?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1713841707336",
+            "new": "New",
+            "title": "Apple Pencil Pro",
+            "price": "3.499.000đ"
+        },
+        {
+            "image":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MWR53?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1713934300288",
+            "new": "New",
+            "title": "Magic Keyboard cho iPad Pro 13 inch (M4) Đen",
+            "price": "9.799.000đ"
+        },
+        {
+            "image":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MT4U3?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1693594248668",
+            "new": "New",
+            "title": "Ốp Lưng Vải Tinh Dệt MagSafe cho iPhone 15 Pro - Xanh Lục Thẫm",
+            "price": "1000đ"
         },
         {
             "image":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692910040844",
-            "subcript": "The future is here.",
-            "title": "iPhone 16 Pro",
-            "detail": "Experience the next generation of iPhone with advanced technology and sleek design."
+            "new": "New",
+            "title": "iPhone 15 Pro",
+            "price": "1000đ"
+        },
+        {
+            "image":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692910040844",
+            "new": "New",
+            "title": "iPhone 15 Pro",
+            "price": "1000đ"
+        },
+        {
+            "image":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692910040844",
+            "new": "New",
+            "title": "iPhone 15 Pro",
+            "price": "1000đ"
+        },
+        {
+            "image":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692910040844",
+            "new": "New",
+            "title": "iPhone 15 Pro",
+            "price": "1000đ"
+        },
+        {
+            "image":"https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=800&hei=1000&fmt=p-jpg&qlt=95&.v=1692910040844",
+            "new": "New",
+            "title": "iPhone 15 Pro",
+            "price": "1000đ"
         }
     ]
 }
