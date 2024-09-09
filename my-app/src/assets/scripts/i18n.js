@@ -1,6 +1,5 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-// Import các file JSON
 import enTranslation from '../locales/en.json';
 import viTranslation from '../locales/vi.json';
 

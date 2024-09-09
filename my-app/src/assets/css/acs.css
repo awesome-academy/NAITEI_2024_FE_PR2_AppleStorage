@@ -1,4 +1,4 @@
-.new-generation-section {
+.acs-new-generation-section {
     position: relative;
     width: calc(100% + 600px);
     margin-left: calc(-50vw + 8%); 
@@ -6,21 +6,24 @@
     overflow: hidden; 
 }
 
-.product {
+.acs-product {
     position: relative;
     overflow: hidden;
     text-align: center;
     border-radius: 12px; 
     transition: transform 0.4s ease, box-shadow 0.4s ease; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    min-height: 500px;
+    background-color: white;
+    padding-top: 40px;
 }
 
-.product img {
-    width: 100%;
+.acs-product img {
+    width: 65%;
     height: auto;
     transition: transform 0.3s ease;
     border-radius: 12px;
+    transform: translateY(20px);
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.4s ease; */
 
@@ -32,31 +35,33 @@
 
 } */
 
-.product:hover {
+.acs-product:hover {
     transform: scale(1.01);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.product-info {
+.acs-product-info {
     position: absolute;
     left: 200px;
     transform: translateX(-50%);
     background-color: transparent;
     top: 22px;
-
+    
 }
 
-.product-info h2 {
+.acs-product-info h2 {
     width: 350px;
-    font-size: 24px;
+    font-size: 18px;
     margin-bottom: 10px;
     background-color: transparent;
+    transform: translateY(320px);
 }
 
-.product-info p {
+.acs-product-info p {
     width: 350px;
     margin-bottom: 10px;
     background-color: transparent;
+    transform: translateY(320px);
 }
 
 .slick-prev {
@@ -90,8 +95,7 @@
 .slick-slide {
     display: flex;
     justify-content: center;
-    margin: 0 10px; 
-   
+    margin: 0 10px;
 }
 
 .slick-track {
@@ -103,25 +107,4 @@
 
 .uu-dai {
     color: #b64400;
-}
-
-.blue {
-    color: rgb(0, 122, 255);
-    fill: rgb(0, 122, 255);
-}
-
-.green {
-    color: rgb(104, 204, 69);
-    fill: rgb(104, 204, 69);
-}
-
-.purple {
-    color: rgb(172, 57, 255);
-    fill: rgb(172, 57, 255);
-}
-
-.gardient {
-    background-image: linear-gradient(to right, rgb(248, 171, 94) 0px, rgb(243, 105, 97) 20%, rgb(161, 118, 200) 40%, rgb(117, 155, 235) 60%, rgb(101, 190, 179) 80%, rgb(112, 219, 150) 100%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
 }

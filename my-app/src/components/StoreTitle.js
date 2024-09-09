@@ -1,21 +1,25 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import "../assets/css/storetitle.css";
 
 const StoreTitle = () => {
   const {t} = useTranslation();
   return (
     <div>
-        <div className="flex justify-between">
-            <div className="flex mr-40"><p className="font-bold">{t('store')}.</p>{t('storeqote')}</div>
-            <div>
-                <span>
-                    <div >
+        <div className="flex justify-between mx-36 mt-16">
+            <div className="bigTitle flex mr-40 font text-5xl leading-tight">
+                <p><strong>{t('store')}.</strong><b className="b" >{t('storeQote')}</b></p>
+            </div>
+            <div className="flex">
+                <img className="w-10 h-10 mr-1"  src="/supportericon.jpeg" alt="icon" />
+                <div className="whitespace-nowrap text-sm flex flex-col justify-start">
+                    <div className="font-semibold ">
                         {t('needhelp')}
                     </div>
-                    <div>
+                    <div className="text-blue-600 hover:underline cursor-pointer">
                         {t('ask')}
                     </div>
-                </span>
+                </div>
             </div>
         </div>
     </div>

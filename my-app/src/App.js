@@ -1,19 +1,15 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import LanguageSwitcher from './components/LanguageSwitcher';
-import NewGen from './components/Newgen';
-import StoreTitle from './components/StoreTitle';
-import './assets/css/global.css';
-import'./assets/scripts/i18n';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Login from './components/Login';
+import Home from './Home';
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <LanguageSwitcher />
-      <StoreTitle/>
-      <NewGen/>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/home" element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
 
