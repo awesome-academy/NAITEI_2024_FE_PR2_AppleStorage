@@ -12,3 +12,11 @@
 .de-icon-cluster {
     transform: translateX(0px);
 }
+
+.dropdown {
+    width: 500rem;
+    position: absolute;
+    transform: translate(-420px,0px);
+    padding-left: 1300%;
+}
+

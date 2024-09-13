@@ -1,4 +1,4 @@
-.new-generation-section {
+.ad2-new-generation-section {
     position: relative;
     width: calc(100% + 600px);
     margin-left: calc(-50vw + 8%); 
@@ -6,7 +6,7 @@
     overflow: hidden; 
 }
 
-.product {
+.ad2-product {
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -14,13 +14,19 @@
     transition: transform 0.4s ease, box-shadow 0.4s ease; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    max-height: 250px;
+    background-color: white;
 }
 
-.product img {
-    width: 100%;
+.ad2-product img {
+    width: 10%;
     height: auto;
     transition: transform 0.3s ease;
     border-radius: 12px;
+    min-height: 250px;
+    background-color: white;
+    transform: translate(100%, -28%);
+    
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.4s ease; */
 
@@ -32,28 +38,28 @@
 
 } */
 
-.product:hover {
+.ad2-product:hover {
     transform: scale(1.01);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.product-info {
+.ad2-product-info {
     position: absolute;
     left: 200px;
-    transform: translateX(-50%);
+    transform: translate(-46%, 50%);
     background-color: transparent;
     top: 22px;
 
 }
 
-.product-info h2 {
+.ad2-product-info h2 {
     width: 350px;
     font-size: 24px;
     margin-bottom: 10px;
     background-color: transparent;
 }
 
-.product-info p {
+.ad2-product-info p {
     width: 350px;
     margin-bottom: 10px;
     background-color: transparent;
@@ -104,24 +110,8 @@
 .uu-dai {
     color: #b64400;
 }
-
-.blue {
-    color: rgb(0, 122, 255);
-    fill: rgb(0, 122, 255);
-}
-
-.green {
-    color: rgb(104, 204, 69);
-    fill: rgb(104, 204, 69);
-}
-
-.purple {
-    color: rgb(172, 57, 255);
-    fill: rgb(172, 57, 255);
-}
-
-.gardient {
-    background-image: linear-gradient(to right, rgb(248, 171, 94) 0px, rgb(243, 105, 97) 20%, rgb(161, 118, 200) 40%, rgb(117, 155, 235) 60%, rgb(101, 190, 179) 80%, rgb(112, 219, 150) 100%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+ 
+h2 b {
+    background-color: white;
+    font-weight: 700;
 }
